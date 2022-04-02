@@ -6,6 +6,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
+    "preinstall":"npx husky install",
     "start": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.config.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config build/webpack.config.prod.js",
     "lint": "cross-env NODE_ENV=production eslint --fix --ext .js,.jsx,.vue src"
