@@ -1,0 +1,12 @@
+logs
+server/mockData
+node_modules
+build
+dist
+src/assets/js
+package.json
+package-lock.json
+.DS_Store
+.eslintrc.js
+commitlint.config.js
+.lintstagedrc.json
